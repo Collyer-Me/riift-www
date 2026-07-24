@@ -26,33 +26,44 @@
 {%- render 'drawer-menu', section: section, main_menu: main_menu, logo_alignment: logo_alignment -%}
 {%- render 'cart-drawer' -%}
 
+{%- liquid
+  assign nav_font = settings.type_header_font_family | font_modify: 'weight', '-200'
+  if nav_font == blank
+    assign nav_font = settings.type_header_font_family | font_modify: 'weight', '500'
+  endif
+-%}
 {%- style -%}
   .site-nav__link,
   .site-nav__dropdown-link {
     font-size: {{ settings.type_navigation_size }}px;
   }
 
-  .site-header--heading-style .site-nav__link,
-  .site-nav__link {
-    font-weight: 500;
+  .site-header--heading-style .site-navigation .site-nav__link,
+  .site-navigation .site-nav__link {
+    {%- if nav_font -%}
+      font-family: {{ nav_font.family }}, {{ nav_font.fallback_families }};
+      font-weight: {{ nav_font.weight }};
+    {%- else -%}
+      font-weight: 500;
+    {%- endif -%}
     line-height: 130%;
     letter-spacing: 0.1em;
   }
 
-  .site-nav__link:hover,
-  .is-light .site-nav__link:hover {
+  .site-navigation .site-nav__link:hover,
+  .is-light .site-navigation .site-nav__link:hover {
     color: #FFD700;
   }
 
   @media only screen and (min-width: 769px) {
-    .site-nav__link {
+    .site-navigation .site-nav__link {
       padding-left: 16px;
       padding-right: 16px;
     }
   }
 
   @media only screen and (min-width: 1200px) {
-    .site-nav__link {
+    .site-navigation .site-nav__link {
       padding-left: 32px;
       padding-right: 32px;
     }

@@ -1,6 +1,9 @@
 {%- liquid
   assign header_font = settings.type_header_font_family
-  assign header_font_medium = header_font | font_modify: 'weight', 500
+  assign header_font_medium = header_font | font_modify: 'weight', '-200'
+  if header_font_medium == blank
+    assign header_font_medium = header_font | font_modify: 'weight', '500'
+  endif
   assign base_font = settings.type_base_font_family
   assign base_font_bold = base_font | font_modify: 'weight', '+200'
   assign base_font_italic = base_font | font_modify: 'style', 'italic'
