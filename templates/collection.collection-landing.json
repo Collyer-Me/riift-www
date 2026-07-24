@@ -1,0 +1,98 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "product_grid"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image-1"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "parallax": false
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "settings": {}
+    },
+    "featured-collection-2": {
+      "type": "featured-collection",
+      "settings": {}
+    },
+    "featured-collection-3": {
+      "type": "featured-collection",
+      "settings": {}
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {}
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {}
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {}
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4"
+      ],
+      "settings": {
+        "title": "You may also like"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collection-1",
+    "featured-collection-2",
+    "featured-collections",
+    "featured-collection-3",
+    "main-collection"
+  ]
+}

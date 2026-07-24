@@ -1,0 +1,509 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "title": "BALANCE IS POWER",
+            "title_size": 60,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/RIIFT-home-hero-1600x650.jpg",
+            "image_mobile": "shopify://shop_images/RIIFT-home-hero-520x650.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "title": "RIIFT TRACKS SYSTEM",
+            "title_size": 60,
+            "subheading": "The ultimate upgrade for your next foil board.",
+            "link": "shopify://pages/tracks-system",
+            "link_text": "lean more",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Lffpzm": {
+          "type": "image",
+          "settings": {
+            "title": "RIIFT POWER SYSTEM",
+            "title_size": 60,
+            "subheading": "Battery power that beats the competition.",
+            "link": "shopify://pages/power-system",
+            "link_text": "learn more",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image_Lffpzm"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "hero_video_PyYkfA": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "BALANCE IS POWER",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2b35e915c4cb474384e891bf8197af3e.mp4",
+        "overlay_opacity": 0,
+        "section_height": "100vh",
+        "mobile_height": "auto"
+      }
+    },
+    "rich_text_yWyihq": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Mb6JgE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>ONE SYSTEM. INFINITE POSSIBILITIES.</h1>"
+          }
+        },
+        "text_zH9cfH": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Seamlessly integrated into virtually any board shape, RIIFT is the ultimate in foiling versatility.<br/>Ride unpowered, as a perfectly balanced foil-assist, or as a dedicated e-Foil, all on the same board.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Mb6JgE",
+        "text_zH9cfH"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "background_video_text_KRq9ni": {
+      "type": "background-video-text",
+      "name": "t:sections.background-video-text.presets.large_video_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/b82f7920a2cc4e07b9456d6a374d798a.mp4",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 650
+      }
+    },
+    "background_image_text_rYT3Jw": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "RIIFT. Enabled.",
+        "text": "<p>Whether you’re charging outer-reef bombs, rinsing your favourite downwind run, chasing more days on the water, or taking your very first flight, RIIFT is designed to meet you where you are.</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/RIIFT-home-enabled-2250x1100.jpg",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "text_columns_awWYPG": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_rWGnkj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RIIFT-foil-unpowered.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "unpowered",
+            "text": "<p>A lightweight RIIFT Blank comes standard, allowing any RIIFT-enabed board to seamlessly transition from unpowered to powered when you’re ready.</p>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/tracks-system"
+          }
+        },
+        "text_block_gFDyJd": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RIIFT-foil-assist.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "FOIL ASSIST",
+            "text": "<p>A well-balanced foil assist that feels invisible from the first turn. Built to charge outer reefs with confidence, yet intuitive enough to be the ultimate learning platform. </p>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/tracks-system"
+          }
+        },
+        "text_block_BdpVrg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RIIFT-foil-e.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "E-Foil",
+            "text": "<p>Transform your existing RIIFT-enabled board into a fully capable e-foil in seconds. Bring your foil setup to the lakes, to the family, to the party. No waves? No Wind? No Excuses. </p>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/tracks-system"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rWGnkj",
+        "text_block_gFDyJd",
+        "text_block_BdpVrg"
+      ],
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "background_image_text_NjqkEk": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "Collaboration at the core.",
+        "text": "<p>We partner with leading shapers around the world to create the ideal platform for every rider. Ride RIIFT unpowered, or choose the <a href=\"/pages/power-system\" title=\"Power System\"><span style=\"text-decoration:underline\">RIIFT Power System</span></a> that suits your conditions and your ambitions.</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/RIIFT-logos_e0cd9a9b-c3a7-4b8b-86df-41dda2de2ffa.jpg",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "scrolling_text_qhkVHE": {
+      "type": "scrolling-text",
+      "custom_css": [
+        ".scrolling-text {padding: 20px 0;}"
+      ],
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "Amos Shapes • Appletree Surfboards • KT •  Naish • Sunova • Surf Coast CNC • Jarrod Snow Designs • Axis •  Kalama • Halley • Frank Foilboards • 270 • Hydrocraft • BoldBoards • Amundson Customs • SPG •",
+        "link": "",
+        "text_size": 22,
+        "text_size_mobile": 20,
+        "text_spacing": false,
+        "direction": "left",
+        "speed": 300
+      }
+    },
+    "logo_list_XdMijH": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_mxCeqQ": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-frank.png",
+            "link": ""
+          }
+        },
+        "logo_image_R3JL4W": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-kt.png",
+            "link": ""
+          }
+        },
+        "logo_image_4RjjPK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-axis.png",
+            "link": ""
+          }
+        },
+        "logo_image_CMLyQH": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-kalama.png",
+            "link": ""
+          }
+        },
+        "logo_image_gpfPtw": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-surf.png",
+            "link": ""
+          }
+        },
+        "logo_image_7iBzMq": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-jarrod-snow.png",
+            "link": ""
+          }
+        },
+        "logo_image_LmXcnr": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-appletree.png",
+            "link": ""
+          }
+        },
+        "logo_image_fzd3RY": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-amos.png",
+            "link": ""
+          }
+        },
+        "logo_image_bk6cip": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-270.png",
+            "link": ""
+          }
+        },
+        "logo_image_kBcEaL": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-halley.png",
+            "link": ""
+          }
+        },
+        "logo_image_kmXzbR": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-naish.png",
+            "link": ""
+          }
+        },
+        "logo_image_afP9qW": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-sonovas.png",
+            "link": ""
+          }
+        },
+        "logo_image_c63CAp": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-boldboards.png",
+            "link": ""
+          }
+        },
+        "logo_image_NFGGwT": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-amundson.png",
+            "link": ""
+          }
+        },
+        "logo_image_TTYKKf": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-spg.png",
+            "link": ""
+          }
+        },
+        "logo_image_jRRGjp": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-hydrocraft.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_mxCeqQ",
+        "logo_image_R3JL4W",
+        "logo_image_4RjjPK",
+        "logo_image_CMLyQH",
+        "logo_image_gpfPtw",
+        "logo_image_7iBzMq",
+        "logo_image_LmXcnr",
+        "logo_image_fzd3RY",
+        "logo_image_bk6cip",
+        "logo_image_kBcEaL",
+        "logo_image_kmXzbR",
+        "logo_image_afP9qW",
+        "logo_image_c63CAp",
+        "logo_image_NFGGwT",
+        "logo_image_TTYKKf",
+        "logo_image_jRRGjp"
+      ],
+      "custom_css": [],
+      "name": "t:sections.logo-list.presets.logo_list.name",
+      "settings": {
+        "title": "",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "newsletter_JTHiLU": {
+      "type": "newsletter",
+      "blocks": {
+        "title_6FqzUh": {
+          "type": "title",
+          "settings": {
+            "title": "notify me when riift becomes available",
+            "heading_size": "h1"
+          }
+        },
+        "text_4kyWWJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe and be the first to find out when RIIFT is available near you. Dropping Jan 2027.</p>"
+          }
+        },
+        "form_qUwJxt": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_6FqzUh",
+        "text_4kyWWJ",
+        "form_qUwJxt"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#111111",
+        "color_text": "#ffffff",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "background_image_text_kAXTTy": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/RIIFT-home-footer.jpg",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "countdown": {
+      "type": "countdown",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+            "heading": "the countdown is on",
+            "heading_size": "h3",
+            "text": "",
+            "content_alignment": "left"
+          }
+        },
+        "timer": {
+          "type": "timer",
+          "settings": {
+            "year": 2026,
+            "month": "09",
+            "day": "1",
+            "hour": "01",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Notify me",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content",
+        "timer",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "text_color": "#f9f9f9",
+        "background_color": "#282525",
+        "overlay_color": "#000000",
+        "overlay_opacity": 22
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "hero_video_PyYkfA",
+    "rich_text_yWyihq",
+    "background_video_text_KRq9ni",
+    "background_image_text_rYT3Jw",
+    "text_columns_awWYPG",
+    "background_image_text_NjqkEk",
+    "scrolling_text_qhkVHE",
+    "logo_list_XdMijH",
+    "newsletter_JTHiLU",
+    "background_image_text_kAXTTy",
+    "countdown"
+  ]
+}

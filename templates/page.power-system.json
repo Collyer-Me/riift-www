@@ -1,0 +1,436 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_4er3c6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_pVPjiR": {
+          "type": "image",
+          "settings": {
+            "title": "RIIFT power system",
+            "title_size": 50,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 6
+          }
+        }
+      },
+      "block_order": [
+        "image_pVPjiR"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "rich_text_iRfNrz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_iT44Xc": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>RIIFT power system.</h1>"
+          }
+        },
+        "text_wFAK8V": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We refuse to believe that riding powered implies compromise. Unpowered or powered - the shape and feel should be the same. The RIIFT Power System integrates seamlessly into boards shaped for the way you ride—not around the limitations of the technology. Because the best foil assist is the one you forget is there.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_iT44Xc",
+        "text_wFAK8V"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_with_icons_Ga8xgX": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_4zkCbr": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "zero drag",
+            "text": "<p>The art & science of the hydrofoil was always a study of hydrodyamics and efficiency. RIIFT keeps it that way. </p>"
+          }
+        },
+        "text_block_7X6pWe": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "balanced ride",
+            "text": "<p>The centre of mass of the RIIFT powerpack sits directly above the centre of lift of your front wing. </p>"
+          }
+        },
+        "text_block_3CjFD9": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "energy density",
+            "text": "<p>Gram for gram, RIIFT is the highest capacity system in the market.  </p>"
+          }
+        },
+        "text_block_Vm3hLw": {
+          "type": "text_block",
+          "settings": {
+            "icon": "stopwatch",
+            "title": "no tools",
+            "text": "<p>Installs in seconds. Spend less time faffing about in the carpark, more time on foil. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_4zkCbr",
+        "text_block_7X6pWe",
+        "text_block_3CjFD9",
+        "text_block_Vm3hLw"
+      ],
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "background_video_text_Remr7V": {
+      "type": "background-video-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-video-text.presets.large_video_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "30 second install.",
+        "text": "<p>Get out of the carpark. Get into the water. Get on the foil. </p>",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2b35e915c4cb474384e891bf8197af3e.mp4",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 750
+      }
+    },
+    "text_and_image_fXDYcN": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/RIIFT-power-balance-870x600.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Thinner boards. Less drag.",
+        "text": "<p>The RIIFT battery sits directly above the centre of lift of the front wing, keeping weight between your stance, exactly where it belongs. A perfectly shaped board that’s ready when you are, however you ride. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "rich_text_ciB94H": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VnyJmY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>Thinner boards. Less drag.</h1>"
+          }
+        },
+        "text_GkXbKe": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>The RIIFT battery sits directly above the centre of lift of the front wing, keeping weight between your stance, exactly where it belongs. A perfectly shaped board that’s ready when you are, however you ride.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VnyJmY",
+        "text_GkXbKe"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "image_compare_PP8anE": {
+      "type": "image-compare",
+      "blocks": {
+        "image_jP6EHa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RIIFT-compare-other_1220x600_b3545b36-73cc-4060-968f-6d03d3fbc0f0.jpg"
+          }
+        },
+        "image_fMd8nQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RIIFT-compare-RIIFT_1220x600_7f3a7a1b-7c23-4d25-82db-cef9f7258d22.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_jP6EHa",
+        "image_fMd8nQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-comparison.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "fullwidth": false,
+        "slider_style": "classic",
+        "height": 600,
+        "color": "#ffffff"
+      }
+    },
+    "background_image_text_i64Trt": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "proprietary ENGINEERING.",
+        "text": "<p>RIIFT’s 49mm motor was designed to minimise drag and disappear beneath you. With 40% less frontal area than a conventional 63mm motor pod, it slips through the water with less resistance when the board reconnects with the surface.</p>",
+        "button_label": "Notify when available",
+        "button_link": "",
+        "layout": "left",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "background_image_text_LpAX7e": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "TINY BUT MIGHTY.",
+        "text": "<p>Despite its compact size, the RIIFT motor delivers 28.5kg of thrust—more than enough power to get you flying, while preserving the feel of a true foil board. The result is less drag, cleaner recovery from touchdowns, and a remarkably natural feeling under your feet.</p>",
+        "button_label": "notify when available",
+        "button_link": "",
+        "layout": "right",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "background_image_text_7Pn7Bn": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "your mast. our motor.",
+        "text": "<p>Our RIIFT motor installs on virtually any foil mast in seconds, and at under 990g for the complete assembly, it’s one less compromise.</p>",
+        "button_label": "Notify when available",
+        "button_link": "",
+        "layout": "left",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "rich_text_8bgmjG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_D8B73T": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>Power you can feel.</h1>"
+          }
+        },
+        "text_ndakCY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Our proprietary battery design is a self-contained IP68 waterproof, as an all-in-one solution. Available as 2P, 3P or 4P, the RIIFT power system is superior on every metric. </p>"
+          }
+        },
+        "button_BLqF69": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/configure-riift",
+            "link_text": "configure your riift system"
+          }
+        }
+      },
+      "block_order": [
+        "text_D8B73T",
+        "text_ndakCY",
+        "button_BLqF69"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_ChR8kp": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_EPegne": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RIIFT-power-2P-1560x1090.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "2P POWERPACK",
+            "text": "<p>518Wh • 30 min runtime* • 12Ah</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_TGyfqY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RIIFT-power-2P-1560x1090.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "3P POWERPACK",
+            "text": "<p>778Wh • 60 min runtime* • 18Ah</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_yyr7J6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RIIFT-power-2P-1560x1090.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "4P POWERPACK",
+            "text": "<p>1036Wh • 90 min runtime* • 24Ah</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_EPegne",
+        "text_block_TGyfqY",
+        "text_block_yyr7J6"
+      ],
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_rqwbQB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jKreV7": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>*Continuous foiling; 85kg rider; 800sqcm foil; calm water. Changing conditions, equipment and usage will alter battery duration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jKreV7"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_4er3c6",
+    "rich_text_iRfNrz",
+    "text_with_icons_Ga8xgX",
+    "background_video_text_Remr7V",
+    "text_and_image_fXDYcN",
+    "rich_text_ciB94H",
+    "image_compare_PP8anE",
+    "background_image_text_i64Trt",
+    "background_image_text_LpAX7e",
+    "background_image_text_7Pn7Bn",
+    "rich_text_8bgmjG",
+    "text_columns_ChR8kp",
+    "rich_text_rqwbQB"
+  ]
+}

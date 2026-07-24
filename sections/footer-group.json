@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "About Motion",
+            "text": "<p>Built for the people who go places, and the days that lead somewhere new.</p>",
+            "button_label": "Our story",
+            "button_link": ""
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "From the journal",
+            "text": "<p>Trail guides, field notes, and everyday inspiration from the long way round.</p>",
+            "button_label": "Read the journal",
+            "button_link": ""
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "Need to know",
+            "text": "<p>Shipping, returns, sizing, and the details that make getting out easier.</p>",
+            "button_label": "Get the details",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "promotion-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_homepage": true,
+        "align_text": "left"
+      }
+    },
+    "countdown_iN9bRL": {
+      "type": "countdown",
+      "blocks": {
+        "content_nNcjMt": {
+          "type": "content",
+          "settings": {
+            "heading": "the countdown is on",
+            "heading_size": "h3",
+            "text": "",
+            "content_alignment": "left"
+          }
+        },
+        "timer_gR4FBH": {
+          "type": "timer",
+          "settings": {
+            "year": 2026,
+            "month": "09",
+            "day": "1",
+            "hour": "01",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button_p8wE73": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Notify me",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_nNcjMt",
+        "timer_gR4FBH",
+        "button_p8wE73"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "text_color": "#f9f9f9",
+        "background_color": "#282525",
+        "overlay_color": "#000000",
+        "overlay_opacity": 22
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "logo_social": {
+          "type": "logo_social",
+          "settings": {
+            "logo": "shopify://shop_images/RIIFT-logo-white.png",
+            "desktop_logo_height": 44,
+            "container_width": 28
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "footer",
+            "container_width": 16
+          }
+        },
+        "menu_LxJFRH": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "company",
+            "container_width": 16
+          }
+        },
+        "menu_wnfQhX": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "power-system",
+            "container_width": 16
+          }
+        },
+        "newsletter_zL4BAf": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "title": "be the first",
+            "richtext": "<p>Subscribe below and be the first to find out when RIIFT is available near you. Dropping Jan 2027.</p>",
+            "container_width": 22
+          }
+        }
+      },
+      "block_order": [
+        "logo_social",
+        "menu",
+        "menu_LxJFRH",
+        "menu_wnfQhX",
+        "newsletter_zL4BAf"
+      ],
+      "settings": {
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_payment_icons": false,
+        "colorize_payment_icons": false,
+        "show_copyright": true,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "countdown_iN9bRL",
+    "footer"
+  ]
+}

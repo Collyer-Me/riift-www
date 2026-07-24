@@ -1,0 +1,567 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_4er3c6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_pVPjiR": {
+          "type": "image",
+          "settings": {
+            "title": "RIIFT tracks system",
+            "title_size": 50,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/RIIFT-tracks-system-hero.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 6
+          }
+        }
+      },
+      "block_order": [
+        "image_pVPjiR"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "slideshow_yMmc6t": {
+      "type": "slideshow",
+      "blocks": {
+        "image_bFCEn9": {
+          "type": "image",
+          "settings": {
+            "title": "No Drag",
+            "title_size": 50,
+            "subheading": "Flush mounted, Recess integrated.",
+            "link": "https://cdn.shopify.com/videos/c/o/v/2b35e915c4cb474384e891bf8197af3e.mp4",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_J46Lhe": {
+          "type": "image",
+          "settings": {
+            "title": "No Tools",
+            "title_size": 50,
+            "subheading": "Ready when you are.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_dJHVnm": {
+          "type": "image",
+          "settings": {
+            "title": "No compromise",
+            "title_size": 50,
+            "subheading": "One board for every session.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 4
+          }
+        }
+      },
+      "block_order": [
+        "image_bFCEn9",
+        "image_J46Lhe",
+        "image_dJHVnm"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "rich_text_QX6VwN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xJrEj6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>The ultimate in versatility.</h1>"
+          }
+        },
+        "text_67yAj7": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Compatible with every RIIFT Power System, our tracks form the foundation for virtually any board, any discipline, and every stage of your foiling journey. Our flush, recess-integrated power system disappears into the board for considerablky less drag. Ride with a flush <strong>Blank</strong>, or swap seamlessly between <strong>2P</strong>, <strong>3P</strong>, and <strong>4P battery</strong> configurations as your needs evolve. One Board. Infinite Possibilities. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xJrEj6",
+        "text_67yAj7"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "background_image_text_i64Trt": {
+      "type": "background-image-text",
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "RIIFT “VERSA” TRACKS.",
+        "text": "<p><strong>The ultimate in versatility.<br/></strong>Compatible with every RIIFT Power System, Versa Tracks form the foundation for virtually any board, any discipline, and every stage of your foiling journey. Ride with a flush <strong>Blank</strong>, or swap seamlessly between <strong>2P</strong>, <strong>3P</strong>, and <strong>4P battery</strong> configurations as your needs evolve. One Board. Infinite Possibilities. </p>",
+        "button_label": "Notify when available",
+        "button_link": "",
+        "layout": "left",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "background_image_text_LpAX7e": {
+      "type": "background-image-text",
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "RIIFT “NANO” TRACKS.",
+        "text": "<p><strong>Minimal Profile. Max Performance.</strong><br/>If you’re truly dialled in, RIIFT Nano Tracks are the ultimate in performance upgrade. At just 55 mm (2.2”) thick, they’re our lowest-profile tracks, engineered exclusively around the compact 2P Power System.</p>",
+        "button_label": "notify when available",
+        "button_link": "",
+        "layout": "right",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "text_and_image_rmV8GK": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/RIIFT-foil-unpowered.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "UNPOWERED",
+        "title": "flawless shape. perfect connection.",
+        "text": "<p>A lightweight RIIFT Blank comes installed as standard, creating a perfectly flush hull for uncompromised prone, parawing or wing foiling. The RIIFT Tracks form a full deck-to-bottom carbon fibre structure, delivering incredible stiffness and direct connection to the foil.</p>",
+        "button_label": "",
+        "button_link": "shopify://policies/privacy-policy",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "text_and_image_bcePDf": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/RIIFT-foil-assist.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "FOIL ASSIST",
+        "title": "redefine what’s possible.",
+        "text": "<p><strong>This is why we built RIIFT.</strong><br/>Perfectly balanced, the weight disappears from the first turn. Chip into waves that were once out of reach. Turn impossible downwind runs into everyday sessions. Leave the jetski at home. Ride more of what you came for. For experienced foilers, it opens new possibilities without changing the way your board feels. For progressing riders, it shortens the path from frustration to flow.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "text_and_image_RkAjx6": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/RIIFT-foil-e.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "E-FOIL",
+        "title": "More to explore.",
+        "text": "<p>Transform your existing RIIFT-enabled board into a fully capable e-foil in seconds, using the foil you already know and love. Explore lakes, rivers and coastlines, cruise in flat water, or make the most of those windless, wave-free days. One board. One platform. More ways to explore the ocean.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "background_image_text_A4Gkbh": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "get the board.",
+        "text": "<p>Step 1 - Choose or order a RIIFT-enabled foilboard from our growing network of shapers. We partner with leading shapers around the world to create the ideal platform for every rider.</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/RIIFT-collaboration.jpg",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "scrolling_text_8QrAwe": {
+      "type": "scrolling-text",
+      "custom_css": [
+        ".scrolling-text {padding: 20px 0;}"
+      ],
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "Amos Shapes • Appletree Surfboards • KT •  Naish • Sunova • Surf Coast CNC • Jarrod Snow Designs • Axis •  Kalama • Halley • Frank Foilboards • 270 • Hydrocraft • BoldBoards • Amundson Customs • SPG •",
+        "link": "",
+        "text_size": 22,
+        "text_size_mobile": 20,
+        "text_spacing": false,
+        "direction": "left",
+        "speed": 300
+      }
+    },
+    "logo_list_VR3EtA": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_eGTxEd": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-frank.png",
+            "link": ""
+          }
+        },
+        "logo_image_L3RMVT": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-kt.png",
+            "link": ""
+          }
+        },
+        "logo_image_ap9BiN": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-axis.png",
+            "link": ""
+          }
+        },
+        "logo_image_akJBXm": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-kalama.png",
+            "link": ""
+          }
+        },
+        "logo_image_ehePXK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-surf.png",
+            "link": ""
+          }
+        },
+        "logo_image_TCNURJ": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-jarrod-snow.png",
+            "link": ""
+          }
+        },
+        "logo_image_JWFAnq": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-appletree.png",
+            "link": ""
+          }
+        },
+        "logo_image_tTthdh": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-amos.png",
+            "link": ""
+          }
+        },
+        "logo_image_J73CQq": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-270.png",
+            "link": ""
+          }
+        },
+        "logo_image_7J3aUE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-halley.png",
+            "link": ""
+          }
+        },
+        "logo_image_EiXjHy": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-naish.png",
+            "link": ""
+          }
+        },
+        "logo_image_XBMeY7": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-sonovas.png",
+            "link": ""
+          }
+        },
+        "logo_image_nBnK97": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-boldboards.png",
+            "link": ""
+          }
+        },
+        "logo_image_NWjVrr": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-amundson.png",
+            "link": ""
+          }
+        },
+        "logo_image_H6PUYk": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-spg.png",
+            "link": ""
+          }
+        },
+        "logo_image_VUg8hM": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-hydrocraft.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_eGTxEd",
+        "logo_image_L3RMVT",
+        "logo_image_ap9BiN",
+        "logo_image_akJBXm",
+        "logo_image_ehePXK",
+        "logo_image_TCNURJ",
+        "logo_image_JWFAnq",
+        "logo_image_tTthdh",
+        "logo_image_J73CQq",
+        "logo_image_7J3aUE",
+        "logo_image_EiXjHy",
+        "logo_image_XBMeY7",
+        "logo_image_nBnK97",
+        "logo_image_NWjVrr",
+        "logo_image_H6PUYk",
+        "logo_image_VUg8hM"
+      ],
+      "custom_css": [],
+      "name": "t:sections.logo-list.presets.logo_list.name",
+      "settings": {
+        "title": "",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "rich_text_qA4ttg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CYwqDh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>Ride it pure. ride it powered.</h1>"
+          }
+        },
+        "text_RKGNnU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Next step is to enjoy our pure carbon deck-to-mast connection to ride your RIIFT-enabled board unpowered or powered, with no compromises regardless of your choice. For the step up, order your <span style=\"text-decoration:underline\">RIIFT Power Pack</span>, click in, and take flight.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CYwqDh",
+        "text_RKGNnU"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "image_compare_cnkLtx": {
+      "type": "image-compare",
+      "blocks": {
+        "image_pQzApf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RIIFT-compare-pure_1220x600_b8474f2d-cfb1-4afc-bdba-929cfe6a07ce.jpg"
+          }
+        },
+        "image_qzVJ47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RIIFT-compare-powered_1220x600_4ffab47d-51d0-4c98-b296-72758c6e5b69.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_pQzApf",
+        "image_qzVJ47"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.image-comparison.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "classic",
+        "height": 600,
+        "color": "#ffffff"
+      }
+    },
+    "newsletter_cc7d9g": {
+      "type": "newsletter",
+      "blocks": {
+        "title_gFEUGh": {
+          "type": "title",
+          "settings": {
+            "title": "notify me when riift becomes available",
+            "heading_size": "h1"
+          }
+        },
+        "text_Bhbp89": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe and be the first to find out when RIIFT is available near you. Dropping Jan 2027.</p>"
+          }
+        },
+        "form_zaBbpU": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_gFEUGh",
+        "text_Bhbp89",
+        "form_zaBbpU"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#111111",
+        "color_text": "#ffffff",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "background_image_text_LQQ3fM": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/RIIFT-home-footer.jpg",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_4er3c6",
+    "slideshow_yMmc6t",
+    "rich_text_QX6VwN",
+    "background_image_text_i64Trt",
+    "background_image_text_LpAX7e",
+    "text_and_image_rmV8GK",
+    "text_and_image_bcePDf",
+    "text_and_image_RkAjx6",
+    "background_image_text_A4Gkbh",
+    "scrolling_text_8QrAwe",
+    "logo_list_VR3EtA",
+    "rich_text_qA4ttg",
+    "image_compare_cnkLtx",
+    "newsletter_cc7d9g",
+    "background_image_text_LQQ3fM"
+  ]
+}

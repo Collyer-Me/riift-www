@@ -1,0 +1,22 @@
+<div class="page-width page-width--narrow page-content">
+  <header class="section-header">
+    <div class="animation-cropper animation-cropper--full" data-aos="section-reveal">
+      <div class="animation-contents">
+        <h1 class="section-header__title">
+          {{ page.title | escape }}
+        </h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="rte rte--nomargin">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-page.name",
+  "tag": "section"
+}
+{% endschema %}

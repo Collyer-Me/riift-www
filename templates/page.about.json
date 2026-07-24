@@ -1,0 +1,589 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_XmLCY4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AQiKLn": {
+          "type": "image",
+          "settings": {
+            "title": "WHY RIIFT",
+            "title_size": 50,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 6
+          }
+        }
+      },
+      "block_order": [
+        "image_AQiKLn"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "rich_text_fwG4yM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wkCgfx": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>A Team of Riders</h1>"
+          }
+        },
+        "text_wqBJCk": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>What unites the RIIFT team is more than talent... though there's plenty of that. They're designers, shapers, engineers, innovators and relentless students of their craft.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wkCgfx",
+        "text_wqBJCk"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "background_image_text_rt88LE": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "<p>They question assumptions, challenge convention and obsess over the smallest details—because they understand that the biggest breakthroughs are often invisible. </p>",
+        "button_label": "Notify when available",
+        "button_link": "",
+        "layout": "left",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "background_image_text_EL6adb": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "<p>They know that the art and science of foiling are inseparable. That effortless style is born from engineering. That podiums are earned through an uncompromising devotion to detail.</p>",
+        "button_label": "Notify when available",
+        "button_link": "",
+        "layout": "right",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "background_image_text_FF8cVG": {
+      "type": "background-image-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "<p>The best ideas aren't born in CAD alone, nor solely on the water. They emerge through a continual conversation between design and experience, where every session informs the next iteration, and every iteration is judged by a single question: <strong>does it make the ride better?</strong></p>",
+        "button_label": "Notify when available",
+        "button_link": "",
+        "layout": "left",
+        "height": 750,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "rich_text_VrFgX6": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zbVKWE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>A RIIFT collective.</h1>"
+          }
+        },
+        "text_VHR8Bh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We haven't assembled a roster of ambassadors—we've built a collective of people whose ideas shape everything we create. They challenge our thinking, test our assumptions and raise the standard for what great equipment should feel like.</p><p>The result is more than a team. It's a community united by curiosity, intelligent design and an uncompromising pursuit of surf feel. Because the future of foiling won't be defined by the people who ride it best—it will be defined by the people who think about it differently.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zbVKWE",
+        "text_VHR8Bh"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_jWzrAC": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "landscape",
+        "image2_mask": "none",
+        "subtitle": "RIIFT ATHLETE",
+        "title": "kane dewilde",
+        "text": "<p>Kane De Wilde isn’t just one of the world’s best foilers—he’s one of the sport’s most influential thinkers. Equal parts athlete, engineer and obsessive tinkerer, Kane has spent years questioning convention and rethinking what’s possible on foil. From board design and hydrodynamics, to foils, wings and riding technique, his fingerprints are everywhere in modern foiling.<br/><br/>His curiosity has led to countless breakthroughs, but perhaps none more significant than recognising the importance of placing mass directly above the foil’s centre of lift—a principle that became fundamental to the RIIFT platform.<br/></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "text_and_image_AqHr8E": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "RIIFT ATHLETE",
+        "title": "jarrod snow",
+        "text": "<p>A world-class downwind racer and one of the most respected board designers in foiling, Jarrod is living proof that craftsmanship and performance are inseparable. Every rail, rocker line and volume distribution has been tested where it matters most—under the feet of someone trying to win.<br/><br/>Jarrod’s obsession with balance, early release and efficient planing had a profound influence on the way RIIFT integrates into the board itself. His philosophy aligned perfectly with ours: don’t build around the technology, build around the ride. When your shaper is also the rider crossing the finish line first, every detail matters.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "text_and_image_7Dw666": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "landscape",
+        "image2_mask": "none",
+        "subtitle": "RIIFT ATHLETE",
+        "title": "Nathan Van Vuuren",
+        "text": "<p>Born on Maui and now pushing the sport forward from South Africa, Nathan Van Vuuren embodies the rare intersection where elite performance and exceptional design become one. His effortless flow on the water is anything but effortless—it's the product of an obsessive pursuit of design, where every session becomes another prototype and every ride another opportunity to refine an idea.</p><p>As a designer, innovator and partner at SPG Foils, Nathan understands that the art and science of foiling are inseparable. Every detail matters, because true performance isn't measured by complexity, but by how naturally it disappears beneath the rider. His unmistakable style is the purest expression of that philosophy: precise, intuitive and beautifully composed.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "text_and_image_pkqLbH": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "RIIFT SHAPER",
+        "title": "SHAPER NAME FROM BRAND x",
+        "text": "<p>Need blurb here.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "text_and_image_qQWTyN": {
+      "type": "text-and-image",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "landscape",
+        "image2_mask": "none",
+        "subtitle": "RIIFT SHAPER",
+        "title": "SHAPER NAME FROM BRAND x",
+        "text": "<p>Need blurb here.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "slideshow_qw8mCn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_edRrrP": {
+          "type": "image",
+          "settings": {
+            "title": "the duo behind the IDEA",
+            "title_size": 40,
+            "subheading": "RIIFT didn’t begin in a boardroom. We wanted a system that was balanced, intuitive and uncompromising.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/RIIFT-Why-Duo-2250x1100_1.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PVqbjn": {
+          "type": "image",
+          "settings": {
+            "title": "It didn't exist.",
+            "title_size": 40,
+            "subheading": "We craved something that made foiling more accessible for beginners, opened new possibilities for experienced riders, and didn’t ask us to sacrifice the feel of a great foil board. We couldn't find it. So we started building it.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EBMDzr": {
+          "type": "image",
+          "settings": {
+            "title": "the RIIFT dream.",
+            "title_size": 50,
+            "subheading": "Along the way, RIIFT became much bigger than the two of us, and we are ever-so-grateful for the contribution from our foiling community over the years.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_edRrrP",
+        "image_PVqbjn",
+        "image_EBMDzr"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "rich_text_MKVcVX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RExXDx": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>OUR SHAPING PARTNERS.</h1>"
+          }
+        },
+        "text_eg3APY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Our RIIFT-enabled board network continues to grow. Our shapers around the world are dedicated in our mission to create the ideal platform for every rider. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RExXDx",
+        "text_eg3APY"
+      ],
+      "custom_css": [
+        "h1 {font-size: 44px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "logo_list_hxGmqY": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_HBW9xi": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-frank.png",
+            "link": ""
+          }
+        },
+        "logo_image_DH8QAf": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-kt.png",
+            "link": ""
+          }
+        },
+        "logo_image_HTaJU3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-axis.png",
+            "link": ""
+          }
+        },
+        "logo_image_X9ycTf": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-kalama.png",
+            "link": ""
+          }
+        },
+        "logo_image_dpgeiE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-surf.png",
+            "link": ""
+          }
+        },
+        "logo_image_mqwW47": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-jarrod-snow.png",
+            "link": ""
+          }
+        },
+        "logo_image_B3U8py": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-appletree.png",
+            "link": ""
+          }
+        },
+        "logo_image_x76Vt4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-amos.png",
+            "link": ""
+          }
+        },
+        "logo_image_BABdiJ": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-270.png",
+            "link": ""
+          }
+        },
+        "logo_image_HTY4G6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-halley.png",
+            "link": ""
+          }
+        },
+        "logo_image_7UF6mD": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-naish.png",
+            "link": ""
+          }
+        },
+        "logo_image_yTPDdg": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-sonovas.png",
+            "link": ""
+          }
+        },
+        "logo_image_xbpCBi": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-boldboards.png",
+            "link": ""
+          }
+        },
+        "logo_image_jndiTr": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-amundson.png",
+            "link": ""
+          }
+        },
+        "logo_image_EkDDfC": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-spg.png",
+            "link": ""
+          }
+        },
+        "logo_image_CLFcGi": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-hydrocraft.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_HBW9xi",
+        "logo_image_DH8QAf",
+        "logo_image_HTaJU3",
+        "logo_image_X9ycTf",
+        "logo_image_dpgeiE",
+        "logo_image_mqwW47",
+        "logo_image_B3U8py",
+        "logo_image_x76Vt4",
+        "logo_image_BABdiJ",
+        "logo_image_HTY4G6",
+        "logo_image_7UF6mD",
+        "logo_image_yTPDdg",
+        "logo_image_xbpCBi",
+        "logo_image_jndiTr",
+        "logo_image_EkDDfC",
+        "logo_image_CLFcGi"
+      ],
+      "custom_css": [],
+      "name": "t:sections.logo-list.presets.logo_list.name",
+      "settings": {
+        "title": "",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "newsletter_tkdLJb": {
+      "type": "newsletter",
+      "blocks": {
+        "title_3Qna73": {
+          "type": "title",
+          "settings": {
+            "title": "notify me when riift becomes available",
+            "heading_size": "h1"
+          }
+        },
+        "text_D4ckkY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe and be the first to find out when RIIFT is available near you. Dropping Jan 2027.</p>"
+          }
+        },
+        "form_4WjE7L": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_3Qna73",
+        "text_D4ckkY",
+        "form_4WjE7L"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#111111",
+        "color_text": "#ffffff",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "background_image_text_tJKQRq": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_XmLCY4",
+    "rich_text_fwG4yM",
+    "background_image_text_rt88LE",
+    "background_image_text_EL6adb",
+    "background_image_text_FF8cVG",
+    "rich_text_VrFgX6",
+    "text_and_image_jWzrAC",
+    "text_and_image_AqHr8E",
+    "text_and_image_7Dw666",
+    "text_and_image_pkqLbH",
+    "text_and_image_qQWTyN",
+    "slideshow_qw8mCn",
+    "rich_text_MKVcVX",
+    "logo_list_hxGmqY",
+    "newsletter_tkdLJb",
+    "background_image_text_tJKQRq"
+  ]
+}

@@ -1,0 +1,200 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "size_chart": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "size-chart"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "color_swatches": true
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {}
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {}
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "separator",
+        "size_chart",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "tab",
+        "contact",
+        "share"
+      ],
+      "settings": {}
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {}
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "American made",
+        "title": "High-quality durable fabrics",
+        "text": "<p>Our apparel uses the strongest and most sustainable fabrics, all hand-assembled here in America and backed by our 5-year guarantee.</p>",
+        "button_label": "Learn more",
+        "button_link": "",
+        "parallax": false
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "subtitle": "Every time",
+        "title": "The perfect fit",
+        "text": "<p>Tailored to fit right every time. Use our handy size guide to choose the right size and if it ever doesn't fit, just return it and we'll pay the postage.</p>",
+        "button_label": "",
+        "image_width": "66"
+      }
+    },
+    "text-and-image2": {
+      "type": "text-and-image",
+      "settings": {
+        "subtitle": "Relax, they're",
+        "title": "Wrinkle-free",
+        "text": "<p>Stop wasting time in the morning ironing shirts, our fabrics are all wrinkle-free. You'll look fresh no matter what.</p>",
+        "button_label": "",
+        "image_width": "66",
+        "layout": "left"
+      }
+    },
+    "hero-video": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Reviewed by experts",
+        "title_size": 65,
+        "subheading": "Our classic jacket",
+        "link_text": "Watch the video",
+        "text_align": "vertical-bottom horizontal-left"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Couldn't be happier, the shirts fit perfectly! Everyone asks where I bought them.</p>",
+            "author": "Deborah"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Second order this month from these guys, love the whole product line!</p>",
+            "author": "James",
+            "author_info": "Austin, TX"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>You won't be disappointed. Arrived fast and love the handwritten note!</p>",
+            "author": "Beth",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Lovely fit and fabric. They're a staple for my fall wardrobe.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Couldn't be happier, the shirts fit perfectly! Everyone asks where I bought them.</p>",
+            "author": "Deborah"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5"
+      ],
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "related_count": 5,
+        "products_per_row": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "background-image-text",
+    "text-and-image",
+    "text-and-image2",
+    "hero-video",
+    "testimonials",
+    "product-recommendations",
+    "collection-return"
+  ]
+}

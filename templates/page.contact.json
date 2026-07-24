@@ -1,0 +1,266 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_eNy7eB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DRkLFC": {
+          "type": "image",
+          "settings": {
+            "title": "contact us",
+            "title_size": 50,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 6
+          }
+        }
+      },
+      "block_order": [
+        "image_DRkLFC"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "rich_text_akFQkj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nPLJFU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Are you a foiler and have a question about RIIFT? Are you a shaper and want to get your boards RIIFT-enabled? Fill in the form below and we'll respond as soon as we can.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nPLJFU"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "faq_fAmeVL": {
+      "type": "faq",
+      "blocks": {
+        "question_Lpn7ng": {
+          "type": "question",
+          "settings": {
+            "title": "Will RIIFT be available in Australia only?",
+            "text": "<p>Standard shipping takes 5 to 7 business days. Express (2 to 3 days) and overnight options are available at checkout. Orders over $75 ship free.</p>"
+          }
+        },
+        "question_LFGNqL": {
+          "type": "question",
+          "settings": {
+            "title": "How long does the RIIFT battery last?",
+            "text": "<p>Yes. You'll receive a tracking link by email as soon as your order ships. Allow up to 24 hours for the tracking to update after dispatch.</p>"
+          }
+        },
+        "question_UUqbyL": {
+          "type": "question",
+          "settings": {
+            "title": "Can I ride RIIFT unpowered?",
+            "text": "<p>We ship to Canada, the US, the UK, and Australia. Rates and delivery times are calculated at checkout.</p>"
+          }
+        },
+        "question_CYr8NP": {
+          "type": "question",
+          "settings": {
+            "title": "Do I have to buy a RIIFT battery straight away, or can I wait and ride it unpowered?",
+            "text": "<p>Standard shipping takes 5 to 7 business days. Express (2 to 3 days) and overnight options are available at checkout. Orders over $75 ship free.</p>"
+          }
+        },
+        "question_fU4qRT": {
+          "type": "question",
+          "settings": {
+            "title": "Will RIIFT work with my existing Foil Mast?",
+            "text": "<p>Standard shipping takes 5 to 7 business days. Express (2 to 3 days) and overnight options are available at checkout. Orders over $75 ship free.</p>"
+          }
+        },
+        "question_NkRNVB": {
+          "type": "question",
+          "settings": {
+            "title": "Will RIIFT work with my existing Foil Drive Integrated Mast?",
+            "text": "<p>Standard shipping takes 5 to 7 business days. Express (2 to 3 days) and overnight options are available at checkout. Orders over $75 ship free.</p>"
+          }
+        },
+        "question_GJGyQJ": {
+          "type": "question",
+          "settings": {
+            "title": "How long are the Mast Tracks?",
+            "text": "<p>10.75\" same as regular Tracks</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_Lpn7ng",
+        "question_LFGNqL",
+        "question_UUqbyL",
+        "question_CYr8NP",
+        "question_fU4qRT",
+        "question_NkRNVB",
+        "question_GJGyQJ"
+      ],
+      "custom_css": [],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "text_columns_ycdGTY": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_GpmKz8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "RIIFT tracks system",
+            "text": "",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/tracks-system"
+          }
+        },
+        "text_block_wVq7ar": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "RIIFT POWER SYSTEM",
+            "text": "",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/power-system"
+          }
+        },
+        "text_block_RWxYLr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "why RIIFT",
+            "text": "",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/why-riift"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_GpmKz8",
+        "text_block_wVq7ar",
+        "text_block_RWxYLr"
+      ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": true
+      }
+    },
+    "newsletter_crTMep": {
+      "type": "newsletter",
+      "blocks": {
+        "title_99R8jn": {
+          "type": "title",
+          "settings": {
+            "title": "notify me when riift becomes available",
+            "heading_size": "h1"
+          }
+        },
+        "text_XXmHxm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe and be the first to find out when RIIFT is available near you. Dropping Jan 2027.</p>"
+          }
+        },
+        "form_bXWXdU": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_99R8jn",
+        "text_XXmHxm",
+        "form_bXWXdU"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#111111",
+        "color_text": "#ffffff",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "background_image_text_wqkKXT": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/RIIFT-home-footer.jpg",
+        "layout": "left",
+        "height": 750,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_eNy7eB",
+    "rich_text_akFQkj",
+    "contact-form",
+    "faq_fAmeVL",
+    "text_columns_ycdGTY",
+    "newsletter_crTMep",
+    "background_image_text_wqkKXT"
+  ]
+}
