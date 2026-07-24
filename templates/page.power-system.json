@@ -135,9 +135,6 @@
     },
     "background_video_text_Remr7V": {
       "type": "background-video-text",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
       "name": "t:sections.background-video-text.presets.large_video_with_text_box.name",
       "settings": {
         "subtitle": "",
@@ -242,9 +239,6 @@
     },
     "background_image_text_i64Trt": {
       "type": "background-image-text",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "subtitle": "",
@@ -260,9 +254,6 @@
     },
     "background_image_text_LpAX7e": {
       "type": "background-image-text",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "subtitle": "",
@@ -278,9 +269,6 @@
     },
     "background_image_text_7Pn7Bn": {
       "type": "background-image-text",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "subtitle": "",

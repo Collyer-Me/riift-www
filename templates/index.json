@@ -134,9 +134,6 @@
     },
     "background_image_text_rYT3Jw": {
       "type": "background-image-text",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "subtitle": "",
@@ -211,9 +208,6 @@
     },
     "background_image_text_NjqkEk": {
       "type": "background-image-text",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "subtitle": "",

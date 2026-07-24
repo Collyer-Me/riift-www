@@ -16,9 +16,6 @@
       {% endif %}
 
       {% form 'customer', id: 'newsletter-footer' %}
-        {% if form.posted_successfully? %}
-          <div class="note note--success">{{ 'general.newsletter_form.newsletter_confirmation' | t }}</div>
-        {% endif %}
         {% if form.context == 'footer' %}
           {% if form.errors %}
             {{ form.errors | default_errors }}
@@ -36,6 +33,9 @@
             <span class="icon__fallback-text">{{ 'general.newsletter_form.submit' | t }}</span>
           </button>
         </div>
+        {% if form.posted_successfully? %}
+          <p class="footer__newsletter-success">{{ 'general.newsletter_form.newsletter_confirmation' | t }}</p>
+        {% endif %}
       {% endform %}
     </div>
   </div>

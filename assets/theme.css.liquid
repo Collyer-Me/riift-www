@@ -10955,17 +10955,30 @@ html[dir=rtl] .grid-product__content{
 
 .background-media-text__text{
   background:var(--colorBody);
+  display:flex;
+  flex-direction:column;
+  gap:20px;
   padding:40px;
   text-align:left;
   width:380px;
 }
 
-.background-media-text__text .subtitle{
-  margin-bottom:20px;
+.background-media-text__text .subtitle,
+.background-media-text__text .h3,
+.background-media-text__text h2,
+.background-media-text__text .rte,
+.background-media-text__text .rte p,
+.background-media-text__text .btn{
+  margin-bottom:0;
+  margin-top:0;
 }
 
-.background-media-text__text .btn{
+.background-media-text__text .rte p+p{
   margin-top:20px;
+}
+
+.background-media-text__text .rte p{
+  font-size:18px;
 }
 
 @media only screen and (min-width:590px){

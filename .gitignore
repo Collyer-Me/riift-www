@@ -12,7 +12,7 @@ Desktop.ini
 
 # Shopify CLI
 .shopify/
-.shopifyignore
+# .shopifyignore is committed so the whole team uses the same content guards
 
 # Env / secrets
 .env

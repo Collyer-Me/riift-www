@@ -16,6 +16,48 @@
   endif
 -%}
 
+{%- style -%}
+  .site-footer__linklist a:hover,
+  .site-footer .footer__social a:hover,
+  .site-footer .footer__collapsible a:hover {
+    color: #FFD700;
+  }
+
+  .footer__newsletter-success {
+    background: none;
+    border: none;
+    color: #FFD700;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 590px) {
+    .site-footer > .page-width > .grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+
+    .site-footer > .page-width > .grid > .grid__item {
+      float: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer__logo-social {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      height: 100%;
+    }
+
+    .footer__logo-social .footer__social {
+      margin-top: auto;
+      margin-bottom: 20px;
+    }
+  }
+{%- endstyle -%}
+
 <footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer">
   <div class="page-width">
 

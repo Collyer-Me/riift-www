@@ -1,0 +1,13 @@
+# Content owned by the live Shopify theme / Theme Editor.
+# These are pulled from live when needed — never push stale copies over live.
+
+config/settings_data.json
+
+templates/*.json
+templates/**/*.json
+
+sections/*-group.json
+
+# Locale content (admin language editor). Keep schema files deployable.
+locales/*.json
+!locales/*.schema.json
