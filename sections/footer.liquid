@@ -31,6 +31,13 @@
     padding: 0;
   }
 
+  @media only screen and (max-width: 589px) {
+    .footer__logo-social .footer__social {
+      justify-content: flex-end;
+      text-align: right;
+    }
+  }
+
   @media only screen and (min-width: 590px) {
     .site-footer > .page-width > .grid {
       display: flex;
@@ -189,7 +196,6 @@
             {%- endif -%}
           </span>
         {%- endif -%}
-        <span class="footer__powered_by">{{ powered_by_link }}</span>
       </div>
     </div>
 

@@ -29,6 +29,7 @@
 
   {%- render 'font-face' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'riift-buttons.css' | asset_url | stylesheet_tag }}
   {%- render 'css-variables' -%}
 
   <script>

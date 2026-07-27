@@ -221,9 +221,7 @@
         "text_XXmHxm",
         "form_bXWXdU"
       ],
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "align_text": "center",

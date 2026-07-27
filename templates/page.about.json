@@ -66,9 +66,7 @@
         "text_wkCgfx",
         "text_wqBJCk"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -143,9 +141,7 @@
         "text_zbVKWE",
         "text_VHR8Bh"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -155,9 +151,7 @@
     },
     "text_and_image_jWzrAC": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image_mask": "landscape",
@@ -178,9 +172,7 @@
     },
     "text_and_image_AqHr8E": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image_mask": "none",
@@ -201,9 +193,7 @@
     },
     "text_and_image_7Dw666": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image_mask": "landscape",
@@ -224,9 +214,7 @@
     },
     "text_and_image_pkqLbH": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image_mask": "none",
@@ -247,9 +235,7 @@
     },
     "text_and_image_qQWTyN": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image_mask": "landscape",
@@ -349,9 +335,7 @@
         "text_RExXDx",
         "text_eg3APY"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -527,9 +511,7 @@
         "text_D4ckkY",
         "form_4WjE7L"
       ],
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "align_text": "center",

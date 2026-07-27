@@ -119,7 +119,7 @@
           <div class="rte">{{ section.settings.text }}</div>
         {%- endif -%}
         {%- if section.settings.button_label != blank -%}
-          <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+          <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--secondary{% endif %}">
             {{ section.settings.button_label }}
           </a>
         {%- endif -%}

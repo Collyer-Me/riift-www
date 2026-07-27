@@ -125,9 +125,7 @@
         "text_xJrEj6",
         "text_67yAj7"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -169,9 +167,7 @@
     },
     "text_and_image_rmV8GK": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/RIIFT-foil-unpowered.jpg",
@@ -193,9 +189,7 @@
     },
     "text_and_image_bcePDf": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/RIIFT-foil-assist.jpg",
@@ -217,9 +211,7 @@
     },
     "text_and_image_RkAjx6": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/RIIFT-foil-e.jpg",
@@ -257,9 +249,7 @@
     },
     "scrolling_text_8QrAwe": {
       "type": "scrolling-text",
-      "custom_css": [
-        ".scrolling-text {padding: 20px 0;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.marquee.presets.scrolling_text.name",
       "settings": {
         "text": "Amos Shapes • Appletree Surfboards • KT •  Naish • Sunova • Surf Coast CNC • Jarrod Snow Designs • Axis •  Kalama • Halley • Frank Foilboards • 270 • Hydrocraft • BoldBoards • Amundson Customs • SPG •",
@@ -435,9 +425,7 @@
         "text_CYwqDh",
         "text_RKGNnU"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -465,9 +453,7 @@
         "image_pQzApf",
         "image_qzVJ47"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.image-comparison.name",
       "settings": {
         "heading": "",
@@ -505,9 +491,7 @@
         "text_Bhbp89",
         "form_zaBbpU"
       ],
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "align_text": "center",

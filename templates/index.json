@@ -107,9 +107,7 @@
         "text_Mb6JgE",
         "text_zH9cfH"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -196,9 +194,7 @@
         "text_block_gFDyJd",
         "text_block_BdpVrg"
       ],
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-columns.presets.text_columns_with_images.name",
       "settings": {
         "title": "",
@@ -224,9 +220,7 @@
     },
     "scrolling_text_qhkVHE": {
       "type": "scrolling-text",
-      "custom_css": [
-        ".scrolling-text {padding: 20px 0;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.marquee.presets.scrolling_text.name",
       "settings": {
         "text": "Amos Shapes • Appletree Surfboards • KT •  Naish • Sunova • Surf Coast CNC • Jarrod Snow Designs • Axis •  Kalama • Halley • Frank Foilboards • 270 • Hydrocraft • BoldBoards • Amundson Customs • SPG •",
@@ -406,9 +400,7 @@
         "text_4kyWWJ",
         "form_qUwJxt"
       ],
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "align_text": "center",

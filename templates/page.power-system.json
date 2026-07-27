@@ -67,9 +67,7 @@
         "text_iT44Xc",
         "text_wFAK8V"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -119,9 +117,7 @@
         "text_block_3CjFD9",
         "text_block_Vm3hLw"
       ],
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "title": "",
@@ -150,9 +146,7 @@
     },
     "text_and_image_fXDYcN": {
       "type": "text-and-image",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/RIIFT-power-balance-870x600.jpg",
@@ -195,9 +189,7 @@
         "text_GkXbKe"
       ],
       "disabled": true,
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -312,9 +304,7 @@
         "text_ndakCY",
         "button_BLqF69"
       ],
-      "custom_css": [
-        "h1 {font-size: 44px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
@@ -370,9 +360,7 @@
         "text_block_TGyfqY",
         "text_block_yyr7J6"
       ],
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.text-columns.presets.text_columns_with_images.name",
       "settings": {
         "title": "",
@@ -394,9 +382,7 @@
       "block_order": [
         "text_jKreV7"
       ],
-      "custom_css": [
-        "p {font-size: 12px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",

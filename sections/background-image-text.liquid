@@ -1,3 +1,28 @@
+{% stylesheet %}
+  .background-media-text__text > :first-child {
+    margin-top: 0;
+  }
+
+  .background-media-text__text > :last-child {
+    margin-bottom: 0;
+  }
+
+  .background-media-text__text .rte:last-child > :last-child {
+    margin-bottom: 0;
+  }
+
+  /* Title first: trim line-box space above caps. Subtitle first: leave line-height alone. */
+  .background-media-text__text > h2:first-child,
+  .background-media-text__text > .h3:first-child {
+    margin-top: 0;
+    line-height: 1;
+  }
+
+  .background-media-text__text > .subtitle:first-child {
+    margin-top: 0;
+  }
+{% endstylesheet %}
+
 <div
   data-section-id="{{ section.id }}"
   data-section-type="background-image"

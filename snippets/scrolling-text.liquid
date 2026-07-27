@@ -1,6 +1,7 @@
 {% style %}
   .scrolling-text--{{ section.id }} {
     --move-speed: {{ section.settings.speed }}s;
+    padding: {{ section.settings.padding_top | default: 20 }}px 0 {{ section.settings.padding_bottom | default: 20 }}px;
   }
 
   .scrolling-text--{{ section.id }} span {

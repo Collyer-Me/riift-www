@@ -1,0 +1,338 @@
+/* ==========================================================================
+   RIIFT Buttons — Figma BUTTONS matrix (node 14:24)
+   Primary / Secondary / Tertiary / Text
+   ========================================================================== */
+
+:root {
+  --riiftBtnBlack: #111111;
+  --riiftBtnWhite: #ffffff;
+  --riiftBtnYellow: #ffd700;
+  --riiftBtnCharcoal: #393434;
+  --riiftBtnGrey: #4d4545;
+  --riiftBtnArrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 12' fill='none'%3E%3Cpath d='M1 6h15.5M12.5 1.5 17.5 6l-5 4.5' stroke='%23000' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* --------------------------------------------------------------------------
+   Primary (.btn) — black fill, white label; hover: yellow label + arrow
+   -------------------------------------------------------------------------- */
+
+.btn,
+.rte .btn,
+.shopify-payment-button .shopify-payment-button__button--unbranded {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  box-sizing: border-box;
+  min-height: 50px;
+  min-width: 0;
+  padding: 0 24px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: var(--colorBtnPrimary, var(--riiftBtnBlack));
+  background-image: none !important;
+  color: var(--colorBtnPrimaryText, var(--riiftBtnWhite));
+  font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, gap 0.25s ease, opacity 0.2s ease;
+}
+
+.btn::after,
+.rte .btn::after {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 0;
+  height: 12px;
+  opacity: 0;
+  overflow: hidden;
+  background-color: currentColor;
+  -webkit-mask: var(--riiftBtnArrow) center / contain no-repeat;
+  mask: var(--riiftBtnArrow) center / contain no-repeat;
+  transition: width 0.25s ease, opacity 0.25s ease;
+}
+
+.btn:hover,
+.rte .btn:hover,
+.shopify-payment-button .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+  background-color: var(--colorBtnPrimary, var(--riiftBtnBlack));
+  background-image: none !important;
+  color: var(--riiftBtnYellow);
+  padding-right: 24px;
+}
+
+.btn:hover:not([disabled]):not(.btn--no-animate):not(.btn--tertiary):not(.btn--inverse):not(.btn--static)::after,
+.rte .btn:hover:not([disabled]):not(.btn--no-animate):not(.btn--tertiary):not(.btn--inverse):not(.btn--static)::after {
+  width: 19px;
+  opacity: 1;
+}
+
+.btn:hover:not([disabled]):not(.btn--no-animate):not(.btn--tertiary):not(.btn--inverse):not(.btn--static),
+.rte .btn:hover:not([disabled]):not(.btn--no-animate):not(.btn--tertiary):not(.btn--inverse):not(.btn--static) {
+  gap: 16px;
+}
+
+/* Kill legacy PNG arrow slide-in from theme animate_buttons */
+[data-animate_buttons="true"] .btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static),
+[data-animate_buttons="true"] .btn.add-to-cart--secondary:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static),
+[data-animate_buttons="true"] .btn.btn--inverse:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
+  background-image: none !important;
+}
+
+[data-animate_buttons="true"] .btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static):hover:not([disabled]),
+[data-animate_buttons="true"] .btn--small:not(.btn--no-animate):not(.btn--tertiary):hover {
+  background-position: initial;
+  padding-right: 24px;
+}
+
+.btn.btn--small,
+.rte .btn.btn--small {
+  min-height: 40px;
+  min-width: 0;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.btn.btn--full,
+.rte .btn.btn--full {
+  width: 100%;
+}
+
+@media only screen and (max-width: 589px) {
+  .btn,
+  .rte .btn,
+  .shopify-payment-button .shopify-payment-button__button--unbranded {
+    font-size: 14px;
+    min-height: 44px;
+    padding: 0 20px;
+  }
+
+  .btn:hover,
+  .rte .btn:hover,
+  .shopify-payment-button .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+    padding-right: 20px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Secondary (.btn--secondary) — white outline; hover = primary hover
+   -------------------------------------------------------------------------- */
+
+.btn.btn--secondary,
+.rte .btn.btn--secondary {
+  background-color: var(--riiftBtnWhite);
+  background-image: none !important;
+  border: 1px solid var(--riiftBtnBlack);
+  color: var(--riiftBtnBlack);
+}
+
+.btn.btn--secondary:hover:not([disabled]),
+.rte .btn.btn--secondary:hover:not([disabled]) {
+  background-color: var(--riiftBtnBlack);
+  border-color: var(--riiftBtnBlack);
+  color: var(--riiftBtnYellow);
+}
+
+.btn.btn--secondary:hover:not([disabled]):not(.btn--no-animate)::after,
+.rte .btn.btn--secondary:hover:not([disabled]):not(.btn--no-animate)::after {
+  width: 19px;
+  opacity: 1;
+}
+
+.btn.btn--secondary:hover:not([disabled]):not(.btn--no-animate),
+.rte .btn.btn--secondary:hover:not([disabled]):not(.btn--no-animate) {
+  gap: 16px;
+}
+
+/* --------------------------------------------------------------------------
+   Tertiary (.btn--tertiary) — text + arrow; hover: grey + underline
+   -------------------------------------------------------------------------- */
+
+.btn.btn--tertiary,
+.rte .btn.btn--tertiary {
+  min-height: 40px;
+  min-width: 0;
+  padding: 0;
+  gap: 8px;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 none;
+  border-radius: 0;
+  color: var(--riiftBtnBlack);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+.btn.btn--tertiary::after,
+.rte .btn.btn--tertiary::after {
+  width: 19px;
+  opacity: 1;
+}
+
+.btn.btn--tertiary:hover:not([disabled]),
+.rte .btn.btn--tertiary:hover:not([disabled]) {
+  background-color: transparent !important;
+  border: 0 none;
+  color: var(--riiftBtnGrey);
+  gap: 8px;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.btn.btn--tertiary:hover:not([disabled])::after,
+.rte .btn.btn--tertiary:hover:not([disabled])::after {
+  width: 19px;
+  opacity: 1;
+}
+
+/* Keep compact outline chips for filter / search / tag UI controls */
+.collapsible-trigger-btn.btn--tertiary,
+.collection-filter__item--drawer.btn--tertiary,
+.results__search-btn.btn--tertiary,
+.tags-toggle.btn--tertiary {
+  min-height: auto;
+  min-width: 0;
+  padding: 6px 10px;
+  gap: 0;
+  background-color: transparent !important;
+  border: 1px solid var(--colorBorder, var(--riiftBtnBlack));
+  border-radius: 4px;
+  color: var(--colorTextBody, var(--riiftBtnBlack));
+  font-size: 12px;
+  letter-spacing: var(--typeHeaderSpacing, normal);
+  text-decoration: none;
+}
+
+.collapsible-trigger-btn.btn--tertiary::after,
+.collection-filter__item--drawer.btn--tertiary::after,
+.results__search-btn.btn--tertiary::after,
+.tags-toggle.btn--tertiary::after {
+  display: none;
+  width: 0;
+  opacity: 0;
+}
+
+.collapsible-trigger-btn.btn--tertiary:hover,
+.collection-filter__item--drawer.btn--tertiary:hover,
+.results__search-btn.btn--tertiary:hover,
+.tags-toggle.btn--tertiary:hover {
+  background-color: transparent !important;
+  border-color: var(--colorTextBody, var(--riiftBtnBlack));
+  color: var(--colorTextBody, var(--riiftBtnBlack));
+  gap: 0;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 590px) {
+  .collapsible-trigger-btn.btn--tertiary,
+  .collection-filter__item--drawer.btn--tertiary,
+  .results__search-btn.btn--tertiary,
+  .tags-toggle.btn--tertiary {
+    font-size: 14px;
+  }
+}
+
+/* Inverse / hero buttons keep their own treatment */
+.btn.btn--inverse:hover:not([disabled]) {
+  gap: 0;
+}
+
+.btn.btn--inverse::after {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Text links — Barlow / body, charcoal + underline; hover underline yellow
+   -------------------------------------------------------------------------- */
+
+.text-link,
+.rte a:not(.rte__image):not(.btn),
+.customers a,
+.rte-setting a:not(.btn),
+.text-with-icons__block-text a:not(.btn),
+.shopify-email-marketing-confirmation__container a,
+.shopify-policy__container a {
+  color: var(--riiftBtnCharcoal);
+  font-family: var(--typeBasePrimary), var(--typeBaseFallback);
+  text-decoration: underline;
+  text-decoration-color: var(--riiftBtnCharcoal);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  border-bottom: 0 none;
+}
+
+.text-link:hover,
+.rte a:not(.rte__image):not(.btn):hover,
+.customers a:hover,
+.rte-setting a:not(.btn):hover,
+.text-with-icons__block-text a:not(.btn):hover,
+.shopify-email-marketing-confirmation__container a:hover,
+.shopify-policy__container a:hover {
+  color: var(--riiftBtnCharcoal);
+  text-decoration-color: var(--riiftBtnYellow);
+}
+
+/* Prefer yellow underline over the theme's scale-in pseudo underline */
+[data-animate_underlines="true"] .rte a:not(.rte__image):not(.btn):after,
+[data-animate_underlines="true"] .customers a:after,
+[data-animate_underlines="true"] .rte-setting a:not(.btn):after,
+[data-animate_underlines="true"] .text-with-icons__block-text a:not(.btn):after,
+[data-animate_underlines="true"] .collapsible-content p a:after {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Newsletter / input-group Form CTA — allow Primary hover (yellow + arrow)
+   -------------------------------------------------------------------------- */
+
+.input-group-btn .btn {
+  background-image: none !important;
+  height: 100%;
+  margin-top: 0;
+}
+
+.input-group-btn .btn:hover {
+  padding-right: 24px !important;
+  color: var(--riiftBtnYellow);
+}
+
+.input-group-btn .btn:hover:not([disabled]):not(.btn--no-animate) {
+  gap: 16px;
+}
+
+.input-group-btn .btn:hover:not([disabled]):not(.btn--no-animate)::after {
+  width: 19px;
+  opacity: 1;
+}
+
+.newsletter-section .btn {
+  min-width: auto;
+}
+
+/* Mobile newsletter already swaps label for an inline arrow icon */
+@media only screen and (max-width: 589px) {
+  .input-group-btn .btn::after {
+    display: none;
+  }
+
+  .input-group-btn .btn:hover:not([disabled]) {
+    gap: 0;
+    padding-right: 20px !important;
+  }
+
+  .input-group-btn .btn:hover .icon {
+    color: var(--riiftBtnYellow);
+  }
+}
