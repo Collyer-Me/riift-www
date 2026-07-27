@@ -78,7 +78,10 @@
   gap: 16px;
 }
 
-/* Kill legacy PNG arrow slide-in from theme animate_buttons */
+/* Kill legacy PNG arrow slide-in from theme animate_buttons.
+   Theme sets `background: var(--colorBtnPrimary) url(...)` with high specificity —
+   that was forcing secondary buttons to a black fill while secondary label color
+   stayed black (black-on-black). Reset fill + image here for all variants. */
 [data-animate_buttons="true"] .btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static),
 [data-animate_buttons="true"] .btn.add-to-cart--secondary:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static),
 [data-animate_buttons="true"] .btn.btn--inverse:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
@@ -89,6 +92,10 @@
 [data-animate_buttons="true"] .btn--small:not(.btn--no-animate):not(.btn--tertiary):hover {
   background-position: initial;
   padding-right: 24px;
+}
+
+[data-animate_buttons="true"] .btn.btn--small:not(.btn--no-animate):not(.btn--tertiary):hover {
+  padding-right: 16px;
 }
 
 .btn.btn--small,
@@ -122,21 +129,31 @@
 
 /* --------------------------------------------------------------------------
    Secondary (.btn--secondary) — white outline; hover = primary hover
+   Specificity must beat [data-animate_buttons] .btn:not(...) background shorthand
    -------------------------------------------------------------------------- */
 
 .btn.btn--secondary,
-.rte .btn.btn--secondary {
-  background-color: var(--riiftBtnWhite);
-  background-image: none !important;
+.rte .btn.btn--secondary,
+[data-animate_buttons="true"] .btn.btn--secondary:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
+  background: var(--riiftBtnWhite) none !important;
+  background-size: auto !important;
   border: 1px solid var(--riiftBtnBlack);
   color: var(--riiftBtnBlack);
 }
 
 .btn.btn--secondary:hover:not([disabled]),
-.rte .btn.btn--secondary:hover:not([disabled]) {
-  background-color: var(--riiftBtnBlack);
+.rte .btn.btn--secondary:hover:not([disabled]),
+[data-animate_buttons="true"] .btn.btn--secondary:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static):hover:not([disabled]) {
+  background: var(--riiftBtnBlack) none !important;
+  background-position: initial !important;
   border-color: var(--riiftBtnBlack);
   color: var(--riiftBtnYellow);
+  padding-right: 24px;
+}
+
+[data-animate_buttons="true"] .btn.btn--secondary.btn--small:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static):hover:not([disabled]),
+.btn.btn--secondary.btn--small:hover:not([disabled]) {
+  padding-right: 16px;
 }
 
 .btn.btn--secondary:hover:not([disabled]):not(.btn--no-animate)::after,
@@ -196,10 +213,9 @@
   opacity: 1;
 }
 
-/* Keep compact outline chips for filter / search / tag UI controls */
+/* Keep compact outline chips for filter / tag UI controls */
 .collapsible-trigger-btn.btn--tertiary,
 .collection-filter__item--drawer.btn--tertiary,
-.results__search-btn.btn--tertiary,
 .tags-toggle.btn--tertiary {
   min-height: auto;
   min-width: 0;
@@ -216,7 +232,6 @@
 
 .collapsible-trigger-btn.btn--tertiary::after,
 .collection-filter__item--drawer.btn--tertiary::after,
-.results__search-btn.btn--tertiary::after,
 .tags-toggle.btn--tertiary::after {
   display: none;
   width: 0;
@@ -225,7 +240,6 @@
 
 .collapsible-trigger-btn.btn--tertiary:hover,
 .collection-filter__item--drawer.btn--tertiary:hover,
-.results__search-btn.btn--tertiary:hover,
 .tags-toggle.btn--tertiary:hover {
   background-color: transparent !important;
   border-color: var(--colorTextBody, var(--riiftBtnBlack));
@@ -238,10 +252,54 @@
 @media only screen and (min-width: 590px) {
   .collapsible-trigger-btn.btn--tertiary,
   .collection-filter__item--drawer.btn--tertiary,
-  .results__search-btn.btn--tertiary,
   .tags-toggle.btn--tertiary {
     font-size: 14px;
   }
+}
+
+/* Predictive search "Show all results" — already has an inline SVG arrow.
+   Lock layout so tertiary hover (::after / padding / underline) can't shift text. */
+.search__results .results__search-btn.btn.btn--tertiary,
+.search__results .results__search-btn.btn.btn--tertiary:hover:not([disabled]),
+.search__results .results__search-btn.btn.btn--tertiary:focus-visible {
+  min-height: 0;
+  margin: 8px auto 24px;
+  padding: 12px 24px;
+  gap: 8px;
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 none;
+  border-radius: 0;
+  color: #111;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 960px;
+}
+
+@media only screen and (min-width: 590px) {
+  .search__results .results__search-btn.btn.btn--tertiary,
+  .search__results .results__search-btn.btn.btn--tertiary:hover:not([disabled]),
+  .search__results .results__search-btn.btn.btn--tertiary:focus-visible {
+    font-size: 16px;
+  }
+}
+
+.search__results .results__search-btn.btn.btn--tertiary:hover:not([disabled]),
+.search__results .results__search-btn.btn.btn--tertiary:focus-visible {
+  opacity: 0.7;
+}
+
+.search__results .results__search-btn.btn.btn--tertiary::after,
+.search__results .results__search-btn.btn.btn--tertiary:hover:not([disabled])::after,
+.search__results .results__search-btn.btn.btn--tertiary:focus-visible::after {
+  content: none;
+  display: none;
+  width: 0;
+  opacity: 0;
 }
 
 /* Inverse / hero buttons keep their own treatment */
@@ -255,6 +313,8 @@
 
 /* --------------------------------------------------------------------------
    Text links — Barlow / body, charcoal + underline; hover underline yellow
+   Theme animate_underlines uses a ::after scale-in; we replace that with a
+   real underline so hover stays visible (including RTE links with nested spans).
    -------------------------------------------------------------------------- */
 
 .text-link,
@@ -263,24 +323,49 @@
 .rte-setting a:not(.btn),
 .text-with-icons__block-text a:not(.btn),
 .shopify-email-marketing-confirmation__container a,
-.shopify-policy__container a {
+.shopify-policy__container a,
+.collapsible-content p a {
   color: var(--riiftBtnCharcoal);
   font-family: var(--typeBasePrimary), var(--typeBaseFallback);
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
   text-decoration-color: var(--riiftBtnCharcoal);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  border-bottom: 0 none;
+  border-bottom: 0 none !important;
+  transition: text-decoration-color 0.25s ease, color 0.25s ease;
 }
 
 .text-link:hover,
+.text-link:focus-visible,
 .rte a:not(.rte__image):not(.btn):hover,
+.rte a:not(.rte__image):not(.btn):focus-visible,
 .customers a:hover,
+.customers a:focus-visible,
 .rte-setting a:not(.btn):hover,
+.rte-setting a:not(.btn):focus-visible,
 .text-with-icons__block-text a:not(.btn):hover,
+.text-with-icons__block-text a:not(.btn):focus-visible,
 .shopify-email-marketing-confirmation__container a:hover,
-.shopify-policy__container a:hover {
+.shopify-email-marketing-confirmation__container a:focus-visible,
+.shopify-policy__container a:hover,
+.shopify-policy__container a:focus-visible,
+.collapsible-content p a:hover,
+.collapsible-content p a:focus-visible {
   color: var(--riiftBtnCharcoal);
+  text-decoration-line: underline;
+  text-decoration-color: var(--riiftBtnYellow);
+}
+
+/* RTE often wraps label text in spans with inline text-decoration */
+.text-link:hover *,
+.text-link:focus-visible *,
+.rte a:not(.rte__image):not(.btn):hover *,
+.rte a:not(.rte__image):not(.btn):focus-visible *,
+.customers a:hover *,
+.rte-setting a:not(.btn):hover *,
+.text-with-icons__block-text a:not(.btn):hover *,
+.collapsible-content p a:hover * {
   text-decoration-color: var(--riiftBtnYellow);
 }
 
@@ -290,7 +375,7 @@
 [data-animate_underlines="true"] .rte-setting a:not(.btn):after,
 [data-animate_underlines="true"] .text-with-icons__block-text a:not(.btn):after,
 [data-animate_underlines="true"] .collapsible-content p a:after {
-  display: none;
+  display: none !important;
 }
 
 /* --------------------------------------------------------------------------
