@@ -3246,6 +3246,10 @@
       "name": "Cart",
       "settings": {
         "header_cart": "Cart",
+        "show_cart_and_account_icons": {
+          "label": "Show cart and account icons",
+          "info": "Turn on when ready to sell. While off, cart and account icons are hidden from the header and mobile menu."
+        },
         "cart_type": {
           "label": "Cart type",
           "options": {

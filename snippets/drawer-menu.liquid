@@ -196,7 +196,7 @@
           </li>
         {%- endfor -%}
 
-        {%- if shop.customer_accounts_enabled -%}
+        {%- if settings.show_cart_and_account_icons and shop.customer_accounts_enabled -%}
           {%- assign animation_row = animation_row | plus: 1 -%}
           <li class="mobile-nav__item appear-animation appear-delay-{{ animation_row }}">
             {% if customer %}

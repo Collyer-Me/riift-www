@@ -68,6 +68,7 @@
     "quick_shop_enable": true,
     "quick_shop_text": "Quick view",
     "enable_swatches": true,
+    "show_cart_and_account_icons": false,
     "cart_type": "drawer",
     "cart_icon": "bag-minimal",
     "cart_additional_buttons": true,

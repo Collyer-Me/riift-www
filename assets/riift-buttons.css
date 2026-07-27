@@ -314,7 +314,8 @@
 /* --------------------------------------------------------------------------
    Text links — Barlow / body, charcoal + underline; hover underline yellow
    Theme animate_underlines uses a ::after scale-in; we replace that with a
-   real underline so hover stays visible (including RTE links with nested spans).
+   real underline. RTE often wraps labels in <span style="text-decoration:underline">
+   which stacked a second black underline on hover — kill child decorations.
    -------------------------------------------------------------------------- */
 
 .text-link,
@@ -334,6 +335,18 @@
   text-underline-offset: 3px;
   border-bottom: 0 none !important;
   transition: text-decoration-color 0.25s ease, color 0.25s ease;
+}
+
+/* One underline only — strip RTE/editor nested span decorations */
+.text-link *,
+.rte a:not(.rte__image):not(.btn) *,
+.customers a *,
+.rte-setting a:not(.btn) *,
+.text-with-icons__block-text a:not(.btn) *,
+.shopify-email-marketing-confirmation__container a *,
+.shopify-policy__container a *,
+.collapsible-content p a * {
+  text-decoration: none !important;
 }
 
 .text-link:hover,
@@ -357,24 +370,13 @@
   text-decoration-color: var(--riiftBtnYellow);
 }
 
-/* RTE often wraps label text in spans with inline text-decoration */
-.text-link:hover *,
-.text-link:focus-visible *,
-.rte a:not(.rte__image):not(.btn):hover *,
-.rte a:not(.rte__image):not(.btn):focus-visible *,
-.customers a:hover *,
-.rte-setting a:not(.btn):hover *,
-.text-with-icons__block-text a:not(.btn):hover *,
-.collapsible-content p a:hover * {
-  text-decoration-color: var(--riiftBtnYellow);
-}
-
 /* Prefer yellow underline over the theme's scale-in pseudo underline */
 [data-animate_underlines="true"] .rte a:not(.rte__image):not(.btn):after,
 [data-animate_underlines="true"] .customers a:after,
 [data-animate_underlines="true"] .rte-setting a:not(.btn):after,
 [data-animate_underlines="true"] .text-with-icons__block-text a:not(.btn):after,
 [data-animate_underlines="true"] .collapsible-content p a:after {
+  content: none !important;
   display: none !important;
 }
 
